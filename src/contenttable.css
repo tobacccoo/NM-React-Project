@@ -1,0 +1,21 @@
+.content-table {
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-header, .table-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px 0;
+  }
+  
+  .table-header {
+    font-weight: bold;
+  }
+  
+  .table-row {
+    border-top: 1px solid #ddd;
+  }
+  

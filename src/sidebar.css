@@ -1,0 +1,25 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #00274d;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transition: transform 0.3s;
+  }
+  
+  .sidebar.closed {
+    transform: translateX(-100%);
+  }
+  
+  .toggle-btn {
+    position: absolute;
+    top: 20px;
+    right: -30px;
+    background: #004080;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  

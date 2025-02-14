@@ -1,0 +1,21 @@
+.app {
+  display: flex;
+}
+
+.main-content {
+  width: 100%;
+  padding: 20px;
+  transition: margin-left 0.3s;
+}
+
+.main-content.with-sidebar {
+  margin-left: 250px;
+}
+
+.main-content.full-width {
+  margin-left: 0;
+}
+
+header {
+  margin-bottom: 20px;
+}
